@@ -1,0 +1,10 @@
+author: ZephireNZ
+database: false
+main: nz.co.noirland.effectcommands.EffectCommands
+name: EffectCommands
+startup: postworld
+version: ${project.version}
+commands:
+    eff:
+        description: Add a permanent effect to yourself
+        usage: "Usage: /<command> [type]"
