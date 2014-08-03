@@ -1,0 +1,76 @@
+## EffectCommands
+# The potion type is in caps, and a full list can be found here: http://jd.bukkit.org/dev/apidocs/org/bukkit/potion/PotionEffectType.html
+# effect is what the player will see/use with the /eff command, and the permission node (eg 'effectcommands.effect.[effect]')
+# level is the level of the potion. Note that 0 = Level I, 1 = Level II, etc. Info on what the levels do here: http://minecraft.gamepedia.com/Status_effect
+
+debug: false
+effects:
+  speed:
+    effect: SPEED
+    level: 0
+  slow:
+    effect: SLOW
+    level: 0
+  haste:
+    effect: FAST_DIGGING
+    level: 0
+  fatigue:
+    effect: SLOW_DIGGING
+    level: 0
+  strength:
+    effect: INCREASE_DAMAGE
+    level: 0
+#  heal:
+#    effect: HEAL
+#    level: 0
+#  harm:
+#    effect:  HARM
+#    level: 0
+  jump:
+    effect: JUMP
+    level: 0
+  nausea:
+    effect: CONFUSION
+    level: 0
+  regen:
+    effect: REGENERATION
+    level: 0
+  resist:
+    effect: DAMAGE_RESISTANCE
+    level: 0
+  fireresist:
+    effect: FIRE_RESISTANCE
+    level: 0
+  water:
+    effect: WATER_BREATHING
+    level: 0
+  invis:
+    effect: INVISIBILITY
+    level: 0
+  blind:
+    effect: BLINDNESS
+    level: 0
+  nightvis:
+    effect: NIGHT_VISION
+    level: 0
+  hunger:
+    effect: HUNGER
+    level: 0
+  weak:
+    effect: WEAKNESS
+    level: 0
+  poison:
+    effect: POISON
+    level: 0
+  wither:
+    effect: WITHER
+    level: 0
+  boost:
+    effect: HEALTH_BOOST
+    level: 0
+#  absorb:
+#    effect: ABSORBTION
+#    level: 0
+  saturate:
+    effect: SATURATION
+    level: 0
